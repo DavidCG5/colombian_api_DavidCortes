@@ -21,7 +21,7 @@ Este proyecto es una aplicación de tablero (dashboard) que utiliza datos de la 
 ```bash
 	npm start
 ```
-		la aplicación estará disponible en `http://localhost:5173/colombia_dash`.
+la aplicación estará disponible en `http://localhost:5173/colombia_dash`.
 ## Dockerización(Opcional)
 La aplicación ha sido dockerizada y se encuentra disponible como una imagen Docker. Sigue estos pasos para ejecutar la aplicación usando Docker.
 
@@ -30,7 +30,7 @@ La aplicación ha sido dockerizada y se encuentra disponible como una imagen Doc
 ```bash 
 	docker build -t colombian-api-app .
 ```
-	O puedes descargar la imagen ya construida desde Docker Hub:
+O puedes descargar la imagen ya construida desde Docker Hub:
 ```bash
 	docker pull tacticalferret/cra
 ```
