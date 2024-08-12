@@ -19,7 +19,7 @@ Este proyecto es una aplicación de tablero (dashboard) que utiliza datos de la 
 ```
 3. **Iniciar la Aplicación**
 ```bash
-	npm start
+	npm run dev
 ```
 la aplicación estará disponible en `http://localhost:5173/colombia_dash`.
 ## Dockerización(Opcional)
