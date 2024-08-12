@@ -1,18 +1,15 @@
 import { useState } from "react";
-import "../../styles/datatable.css"; // Asegúrate de importar el CSS
+import "../../styles/datatable.css";
 
 function DataTable({ headers, data, rowsPerPage = 6 }) {
   const [currentPage, setCurrentPage] = useState(0);
 
-  // Calcular el número total de páginas
   const totalPages = Math.ceil(data.length / rowsPerPage);
 
-  // Calcular el índice inicial y final para la página actual
   const startIndex = currentPage * rowsPerPage;
   const endIndex = startIndex + rowsPerPage;
   const currentData = data.slice(startIndex, endIndex);
 
-  // Función para manejar el cambio de página
   const handlePageChange = (pageIndex) => {
     setCurrentPage(pageIndex);
   };

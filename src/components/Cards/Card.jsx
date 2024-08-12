@@ -1,6 +1,5 @@
-import "../../styles/card.css"; // Asegúrate de tener un archivo CSS para estilos opcionales
+import "../../styles/card.css";
 
-// Componente Card que recibe props
 function Card({ title, total, icon, totalText }) {
   return (
     <div className="card">

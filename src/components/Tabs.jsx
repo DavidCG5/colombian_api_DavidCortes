@@ -5,14 +5,12 @@ import AttractionsTab from "./Attractions";
 import "../styles/tab.css";
 
 function Tabs() {
-  // Inicializa el estado del tab activo con el valor guardado en localStorage
   const [activeTab, setActiveTab] = useState(() => {
     const savedTab = localStorage.getItem("activeTab");
     return savedTab ? parseInt(savedTab, 10) : 0;
   });
 
   useEffect(() => {
-    // Guarda el tab activo en localStorage cada vez que cambie
     localStorage.setItem("activeTab", activeTab);
   }, [activeTab]);
 

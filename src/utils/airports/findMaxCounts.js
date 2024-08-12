@@ -1,4 +1,3 @@
-// Función auxiliar para contar aeropuertos en una ciudad
 function countAirportsInCity(cityData) {
   let cityCount = 0;
   if (cityData.tipos) {
@@ -9,7 +8,6 @@ function countAirportsInCity(cityData) {
   return cityCount;
 }
 
-// Función auxiliar para contar aeropuertos en un departamento
 function countAirportsInDepartment(departmentData) {
   let departmentCount = 0;
   Object.values(departmentData.ciudades || {}).forEach((cityData) => {
