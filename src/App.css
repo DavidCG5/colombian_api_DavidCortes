@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+.tabs li {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+
+.tabs li.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
