@@ -91,7 +91,6 @@ function AirportsTab() {
         item.cantidad.toString().includes(query)
       );
     });
-  console.log(tableData);
 
   const tableHeaders = ["Región", "Departamento", "Ciudad", "Tipo", "Cantidad"];
 

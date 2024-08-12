@@ -35,8 +35,6 @@ export function groupAirportsByRegion(airports, regions) {
       tipo
     ]++;
 
-    console.log({ airportCount });
-
     return airportCount;
   }, {});
 }
